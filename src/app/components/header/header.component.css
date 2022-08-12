@@ -1,0 +1,64 @@
+.fondo{
+    background-color: rgb(50, 21, 91);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagen{
+    width: 200px;
+}
+button{
+    background-color: rgb(161, 31, 193);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 1em;
+    border-style: none;
+    box-shadow: 4px 4px 5px 1px #d9d9d9;   
+   
+}
+button:hover{
+    background-color: black;
+}
+.imagen-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    
+}
+.imagen-logo:hover{
+  background-color: rgb(161, 31, 193);
+  border-radius: 50%;
+}
+.logo-flex{
+    display:flex;
+    align-items: center;
+}
+.banner{
+    background-image: url("../../../assets/robert-lukeman-PH0HYjsf2n8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+
+
+/* mixin para celulares */
+
+@media (max-width:576px) {
+    .fondo{
+        flex-direction: column;
+        
+    }
+    .imagen-logo{
+        margin-bottom: 8px;
+
+    }
+    button{
+        margin-bottom: 12px;
+    }
+    .logo-flex{
+        flex-direction: column;
+    }
+}

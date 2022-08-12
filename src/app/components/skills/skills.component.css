@@ -1,0 +1,30 @@
+.contenedor-general{
+    width: 90%;
+    margin: 0 auto;
+}
+.contenedor-skills{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.contenedor-skills circle-progress{
+    margin-bottom: 60px;
+
+}
+@media (max-width:585px){
+.contenedor-skills{
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-general{
+    text-align: center;
+}
+}
+@media (min-width:1200px){
+    .contenedor-skills circle-progress{
+        margin-right: 90px;
+    }  
+}

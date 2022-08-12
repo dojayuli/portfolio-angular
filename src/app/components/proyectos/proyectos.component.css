@@ -1,0 +1,43 @@
+.contenedor{
+    width:90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.contenedor-proyecto{
+    margin: 30px 0 0 0 ;
+}
+.contenedor-proyecto a {
+    margin: 0px 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.contenedor-proyecto a button{
+    
+    background-color: rgb(161, 31, 193);
+    color: white;
+    font-size: 14px;
+    padding: 4px 12px;
+    width: 90%;
+    border-style: none;
+  
+}
+@media(max-width: 585px){
+    .contenedor-proyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor{
+        text-align: center;
+    }
+    .contenedor-proyecto a{
+        padding: 8px 16px;
+    }
+}

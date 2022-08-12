@@ -1,0 +1,49 @@
+.contenedor{
+    width: 90%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+
+ }
+
+
+
+.contenedor-experiencia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+
+}
+.contenedor-trabajo{ 
+    width: 50%;
+}
+
+.contenedor-logo{
+    width: 30%;
+
+}
+@media(max-width: 576px){
+    .contenedor{
+        text-align: center;
+    }
+    .contenedor-experiencia{
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+  
+
+    }
+    .contenedor-trabajo{ 
+        width: 100%;
+    }
+    
+    .contenedor-logo{
+        width: 100%;
+    
+    }
+ 
+}
