@@ -4,6 +4,12 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
+    background-color: rgb(98, 15, 181);
+    width: 90%;
+    margin: 0 auto 16px auto ;
+    border-radius: 0px 0px 28px 28px;
+    padding-bottom: 20px;
+    color: rgb(220, 189, 249);
 
 }
 .contenedor-perfil{

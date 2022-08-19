@@ -6,7 +6,8 @@
         <a href="https://www.linkedin.com/in/yuliriverosortiz/" target="_blank"><img src="../../../assets/logo/linkedin.png" class="imagen-logo"></a>
         <a href="https://www.twitter.com/in/yuliriverosortiz/" target="_blank"><img src="../../../assets/logo/twitter.png" class="imagen-logo"></a>
     
-    <button>Login</button>
+        <button type="button" class="btn" (click)="login()" *ngIf="!isLogged">Login</button>
+        <button type="button" class="btn" (click)="onLogOut()"*ngIf="isLogged">Cerrar Sesión</button>
 
     </div>   
 </div>

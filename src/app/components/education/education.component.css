@@ -1,9 +1,13 @@
 .contenedor{
-    width: 90%;  
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    background-color: rgb(98, 15, 181);
+    width: 90%;
+    margin: 16px auto ;
+    border-radius: 28px;
+    padding: 20px;
+    color: rgb(220, 189, 249);
 
 
  }
