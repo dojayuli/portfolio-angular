@@ -1,6 +1,6 @@
 export class Educacion {
 
-    id?: number;
+    id!: number;
     nombreE: string;
     descripcionE: string;
     imgEducation: string;

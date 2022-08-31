@@ -15,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { LoguinComponent } from './components/loguin/loguin.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { LoguinComponent } from './components/loguin/loguin.component';
     ProyectosComponent,
     FooterComponent,
     HomeComponent,
-    LoguinComponent
+    LoguinComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

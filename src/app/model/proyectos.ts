@@ -1,6 +1,6 @@
 export class Proyectos {
 
-    id?: number;
+    id!: number;
     tituloProyecto: string;
     fechaProyecto: Date;
     descripcionProyecto: string;

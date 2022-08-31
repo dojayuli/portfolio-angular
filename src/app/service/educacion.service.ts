@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
 
-  eduURL= "http://localhost:8080/education/";
+  eduURL= "https://backendyuli.herokuapp.com/education/";
   constructor( private httpClient: HttpClient) { }
 
   public lista():Observable<Educacion[]>{

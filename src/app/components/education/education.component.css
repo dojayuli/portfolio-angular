@@ -12,9 +12,7 @@
 
  }
 
-img{
-    width: 300px;
-}
+
 
 .contenedor-experiencia{
     display: flex;
@@ -25,12 +23,9 @@ img{
 }
 .contenedor-trabajo{ 
     width: 50%;
-}
-
-.contenedor-logo{
-    width: 30%;
 
 }
+
 @media(max-width: 576px){
     .contenedor{
         text-align: center;
@@ -47,10 +42,6 @@ img{
         width: 100%;
     }
     
-    .contenedor-logo{
-        width: 20%;
-    
-    }
     .contenedor h1{
 
         margin-left: 0;

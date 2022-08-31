@@ -1,6 +1,6 @@
 export class Experience {
 
-    id?: number;
+    id!: number;
     nombreExp: string;
     descripcionExp: string;
     imgExperience: string;

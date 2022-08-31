@@ -1,6 +1,6 @@
 export class Banner {
 
-    id?: number;
+    id!: number;
     imgBanner: String;
 
     constructor(imgBanner: String){
